@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<problems>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml</file>
+    <line>35</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overlapping items in RelativeLayout</problem_class>
+    <hints />
+    <description>&lt;html&gt;&lt;code&gt;@id/tv_prompt_budget&lt;/code&gt; can overlap &lt;code&gt;@id/tv_budget&lt;/code&gt; if @string/prompt_remaining_budget grows due to localized text expansion&lt;/html&gt;</description>
+  </problem>
+</problems>
+

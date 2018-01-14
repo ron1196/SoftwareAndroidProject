@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<problems>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/ron/fuelmanager/DirectionsApi/Json/DownloadUrlTask.java</file>
+    <line>40</line>
+    <module>app</module>
+    <package>ron.fuelmanager.DirectionsApi.Json</package>
+    <entry_point TYPE="method" FQNAME="ron.fuelmanager.DirectionsApi.Json.DownloadUrlTask java.lang.String downloadUrlAsString(java.lang.String strUrl)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'StringBuffer' may be 'StringBuilder'</problem_class>
+    <description>&lt;code&gt;StringBuffer sb&lt;/code&gt; may be declared as 'StringBuilder' #loc</description>
+  </problem>
+</problems>
+

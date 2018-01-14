@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<problems>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml</file>
+    <line>74</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Using dp instead of sp for text sizes</problem_class>
+    <hints />
+    <description>&lt;html&gt;Should use &quot;&lt;code&gt;sp&lt;/code&gt;&quot; instead of &quot;&lt;code&gt;dp&lt;/code&gt;&quot; for text sizes&lt;/html&gt;</description>
+  </problem>
+</problems>
+

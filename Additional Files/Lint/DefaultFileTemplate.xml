@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<problems>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/ron/fuelmanager/DirectionsApi/DirectionsApi.java</file>
+    <line>15</line>
+    <module>app</module>
+    <package>ron.fuelmanager.DirectionsApi</package>
+    <entry_point TYPE="class" FQNAME="ron.fuelmanager.DirectionsApi.DirectionsApi" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Default File Template Usage</problem_class>
+    <description>Default File template</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/ron/fuelmanager/DirectionsApi/Json/DownloadUrlTask.java</file>
+    <line>13</line>
+    <module>app</module>
+    <package>ron.fuelmanager.DirectionsApi.Json</package>
+    <entry_point TYPE="class" FQNAME="ron.fuelmanager.DirectionsApi.Json.DownloadUrlTask" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Default File Template Usage</problem_class>
+    <description>Default File template</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/ron/fuelmanager/DirectionsApi/Json/ParserJsonTask.java</file>
+    <line>13</line>
+    <module>app</module>
+    <package>ron.fuelmanager.DirectionsApi.Json</package>
+    <entry_point TYPE="class" FQNAME="ron.fuelmanager.DirectionsApi.Json.ParserJsonTask" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Default File Template Usage</problem_class>
+    <description>Default File template</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/ron/fuelmanager/DirectionsApi/Route.java</file>
+    <line>8</line>
+    <module>app</module>
+    <package>ron.fuelmanager.DirectionsApi</package>
+    <entry_point TYPE="class" FQNAME="ron.fuelmanager.DirectionsApi.Route" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Default File Template Usage</problem_class>
+    <description>Default File template</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/ron/fuelmanager/FirebaseHelper.java</file>
+    <line>20</line>
+    <module>app</module>
+    <package>ron.fuelmanager</package>
+    <entry_point TYPE="class" FQNAME="ron.fuelmanager.FirebaseHelper" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Default File Template Usage</problem_class>
+    <description>Default File template</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/ron/fuelmanager/DataType/Car.java</file>
+    <line>3</line>
+    <module>app</module>
+    <package>ron.fuelmanager.DataType</package>
+    <entry_point TYPE="class" FQNAME="ron.fuelmanager.DataType.Car" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Default File Template Usage</problem_class>
+    <description>Default File template</description>
+  </problem>
+</problems>
+

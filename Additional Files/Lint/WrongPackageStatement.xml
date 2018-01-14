@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<problems>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/test/java/ron/fuelmanager/ExampleUnitTest.java</file>
+    <line>1</line>
+    <module>app</module>
+    <package>fuelmanagera.ron.fuelmanager</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/test/java/ron/fuelmanager/ExampleUnitTest.java" />
+    <problem_class severity="ERROR" attribute_key="ERRORS_ATTRIBUTES">Wrong package statement</problem_class>
+    <description>Package name 'fuelmanagera.ron.fuelmanager' does not correspond to the file path 'ron.fuelmanager'</description>
+  </problem>
+</problems>
+

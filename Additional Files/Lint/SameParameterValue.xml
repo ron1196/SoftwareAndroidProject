@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<problems>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/ron/fuelmanager/DataType/User.java</file>
+    <line>9</line>
+    <module>app</module>
+    <package>ron.fuelmanager.DataType</package>
+    <entry_point TYPE="method" FQNAME="ron.fuelmanager.DataType.User User(java.lang.String firstName, java.lang.String lastName, java.lang.String city, java.lang.String address, ron.fuelmanager.DataType.Car car)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Actual method parameter is the same constant</problem_class>
+    <hints>
+      <hint value="car null" />
+    </hints>
+    <description>Actual value of parameter '&lt;code&gt;car&lt;/code&gt;' is always '&lt;code&gt;null&lt;/code&gt;'</description>
+  </problem>
+</problems>
+

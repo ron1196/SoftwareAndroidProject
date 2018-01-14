@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<problems>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/ron/fuelmanager/Activity/MainActivity.java</file>
+    <line>263</line>
+    <module>app</module>
+    <package>ron.fuelmanager.Activity</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/ron/fuelmanager/Activity/MainActivity.java" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Layout Inflation without a Parent</problem_class>
+    <hints />
+    <description>&lt;html&gt;Avoid passing &lt;code&gt;null&lt;/code&gt; as the view root (needed to resolve layout parameters on the inflated layout's root element)&lt;/html&gt;</description>
+  </problem>
+</problems>
+

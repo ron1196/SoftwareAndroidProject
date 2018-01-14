@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<problems>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/res/values/strings.xml</file>
+    <line>47</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Spelling error</problem_class>
+    <hints />
+    <description>&lt;html&gt;&quot;Ok&quot; is usually capitalized as &quot;OK&quot;&lt;/html&gt;</description>
+  </problem>
+</problems>
+

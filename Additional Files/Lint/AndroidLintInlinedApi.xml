@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<problems>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/ron/fuelmanager/Activity/RegisterActivity.java</file>
+    <line>115</line>
+    <module>app</module>
+    <package>ron.fuelmanager.Activity</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/ron/fuelmanager/Activity/RegisterActivity.java" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Using inlined constants on older versions</problem_class>
+    <hints />
+    <description>&lt;html&gt;Field requires API level 16 (current min is 15): &lt;code&gt;android.Manifest.permission#READ_EXTERNAL_STORAGE&lt;/code&gt;&lt;/html&gt;</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/ron/fuelmanager/Activity/UserSettingActivity.java</file>
+    <line>182</line>
+    <module>app</module>
+    <package>ron.fuelmanager.Activity</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/ron/fuelmanager/Activity/UserSettingActivity.java" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Using inlined constants on older versions</problem_class>
+    <hints />
+    <description>&lt;html&gt;Field requires API level 16 (current min is 15): &lt;code&gt;android.Manifest.permission#READ_EXTERNAL_STORAGE&lt;/code&gt;&lt;/html&gt;</description>
+  </problem>
+</problems>
+

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<problems>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/ron/fuelmanager/Activity/MapActivity.java</file>
+    <line>118</line>
+    <module>app</module>
+    <package>ron.fuelmanager.Activity</package>
+    <entry_point TYPE="method" FQNAME="ron.fuelmanager.Activity.MapActivity void drawRoute(java.util.List&lt;java.util.List&lt;java.util.HashMap&lt;java.lang.String,java.lang.String&gt;&gt;&gt; routes)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Redundant 'String.toString()'</problem_class>
+    <description>&lt;code&gt;point.get(&quot;lng&quot;).toString()&lt;/code&gt; is redundant #loc</description>
+  </problem>
+</problems>
+

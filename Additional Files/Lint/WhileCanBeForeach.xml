@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<problems>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/ron/fuelmanager/Activity/MainActivity.java</file>
+    <line>275</line>
+    <module>app</module>
+    <package>ron.fuelmanager.Activity</package>
+    <entry_point TYPE="method" FQNAME="ron.fuelmanager.Activity.MainActivity$9 void onDataChange(com.google.firebase.database.DataSnapshot dataSnapshot)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'while' loop replaceable with 'foreach'</problem_class>
+    <description>&lt;code&gt;while&lt;/code&gt; loop replaceable with 'foreach' #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/ron/fuelmanager/Activity/MainActivity.java</file>
+    <line>291</line>
+    <module>app</module>
+    <package>ron.fuelmanager.Activity</package>
+    <entry_point TYPE="method" FQNAME="ron.fuelmanager.Activity.MainActivity$9$2$1 void onDataChange(com.google.firebase.database.DataSnapshot dataSnapshot)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'while' loop replaceable with 'foreach'</problem_class>
+    <description>&lt;code&gt;while&lt;/code&gt; loop replaceable with 'foreach' #loc</description>
+  </problem>
+</problems>
+

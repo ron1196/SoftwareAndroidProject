@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<problems>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/ron/fuelmanager/Activity/LoginActivity.java</file>
+    <line>45</line>
+    <module>app</module>
+    <package>ron.fuelmanager.Activity</package>
+    <entry_point TYPE="field" FQNAME="ron.fuelmanager.Activity.LoginActivity mDatabase" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">unused declaration</problem_class>
+    <hints>
+      <hint value="comment" />
+      <hint value="delete" />
+    </hints>
+    <description>Field is assigned but never accessed.</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/ron/fuelmanager/Activity/RegisterActivity.java</file>
+    <line>143</line>
+    <module>app</module>
+    <package>ron.fuelmanager.Activity</package>
+    <entry_point TYPE="method" FQNAME="ron.fuelmanager.Activity.RegisterActivity void selectImage()" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Unused declaration</problem_class>
+    <description>Variable &lt;code&gt;show&lt;/code&gt; is never used</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/ron/fuelmanager/Activity/RegisterActivity.java</file>
+    <line>49</line>
+    <module>app</module>
+    <package>ron.fuelmanager.Activity</package>
+    <entry_point TYPE="field" FQNAME="ron.fuelmanager.Activity.RegisterActivity mStorage" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">unused declaration</problem_class>
+    <hints>
+      <hint value="comment" />
+      <hint value="delete" />
+    </hints>
+    <description>Field is assigned but never accessed.</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/ron/fuelmanager/Activity/MainActivity.java</file>
+    <line>66</line>
+    <module>app</module>
+    <package>ron.fuelmanager.Activity</package>
+    <entry_point TYPE="field" FQNAME="ron.fuelmanager.Activity.MainActivity view_budget" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">unused declaration</problem_class>
+    <hints>
+      <hint value="comment" />
+      <hint value="delete" />
+    </hints>
+    <description>Field is assigned but never accessed.</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/ron/fuelmanager/Activity/MapActivity.java</file>
+    <line>110</line>
+    <module>app</module>
+    <package>ron.fuelmanager.Activity</package>
+    <entry_point TYPE="method" FQNAME="ron.fuelmanager.Activity.MapActivity void drawRoute(java.util.List&lt;java.util.List&lt;java.util.HashMap&lt;java.lang.String,java.lang.String&gt;&gt;&gt; routes)" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Unused declaration</problem_class>
+    <description>Variable &lt;code&gt;markerOptions&lt;/code&gt; is never used</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/ron/fuelmanager/Activity/UserSettingActivity.java</file>
+    <line>210</line>
+    <module>app</module>
+    <package>ron.fuelmanager.Activity</package>
+    <entry_point TYPE="method" FQNAME="ron.fuelmanager.Activity.UserSettingActivity void selectImage()" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Unused declaration</problem_class>
+    <description>Variable &lt;code&gt;show&lt;/code&gt; is never used</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/ron/fuelmanager/DataType/User.java</file>
+    <line>44</line>
+    <module>app</module>
+    <package>ron.fuelmanager.DataType</package>
+    <entry_point TYPE="method" FQNAME="ron.fuelmanager.DataType.User void setBudget(double budget)" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">unused declaration</problem_class>
+    <hints>
+      <hint value="comment" />
+      <hint value="delete" />
+    </hints>
+    <description>Method is never used.</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/ron/fuelmanager/DataType/User.java</file>
+    <line>60</line>
+    <module>app</module>
+    <package>ron.fuelmanager.DataType</package>
+    <entry_point TYPE="method" FQNAME="ron.fuelmanager.DataType.User ron.fuelmanager.DataType.Car getCar()" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">unused declaration</problem_class>
+    <hints>
+      <hint value="comment" />
+      <hint value="delete" />
+    </hints>
+    <description>Method is never used.</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/ron/fuelmanager/DataType/User.java</file>
+    <line>36</line>
+    <module>app</module>
+    <package>ron.fuelmanager.DataType</package>
+    <entry_point TYPE="method" FQNAME="ron.fuelmanager.DataType.User double getBudget()" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">unused declaration</problem_class>
+    <hints>
+      <hint value="comment" />
+      <hint value="delete" />
+    </hints>
+    <description>Method is never used.</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/ron/fuelmanager/DataType/User.java</file>
+    <line>64</line>
+    <module>app</module>
+    <package>ron.fuelmanager.DataType</package>
+    <entry_point TYPE="method" FQNAME="ron.fuelmanager.DataType.User void setCar(ron.fuelmanager.DataType.Car car)" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">unused declaration</problem_class>
+    <hints>
+      <hint value="comment" />
+      <hint value="delete" />
+    </hints>
+    <description>Method is never used.</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/ron/fuelmanager/DataType/Car.java</file>
+    <line>35</line>
+    <module>app</module>
+    <package>ron.fuelmanager.DataType</package>
+    <entry_point TYPE="method" FQNAME="ron.fuelmanager.DataType.Car void setModelID(int modelID)" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">unused declaration</problem_class>
+    <hints>
+      <hint value="comment" />
+      <hint value="delete" />
+    </hints>
+    <description>Method is never used.</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/ron/fuelmanager/DataType/Car.java</file>
+    <line>43</line>
+    <module>app</module>
+    <package>ron.fuelmanager.DataType</package>
+    <entry_point TYPE="method" FQNAME="ron.fuelmanager.DataType.Car void setModel(java.lang.String model)" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">unused declaration</problem_class>
+    <hints>
+      <hint value="comment" />
+      <hint value="delete" />
+    </hints>
+    <description>Method is never used.</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/ron/fuelmanager/DataType/Car.java</file>
+    <line>51</line>
+    <module>app</module>
+    <package>ron.fuelmanager.DataType</package>
+    <entry_point TYPE="method" FQNAME="ron.fuelmanager.DataType.Car void setMpg(double mpg)" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">unused declaration</problem_class>
+    <hints>
+      <hint value="comment" />
+      <hint value="delete" />
+    </hints>
+    <description>Method is never used.</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/ron/fuelmanager/DataType/Car.java</file>
+    <line>23</line>
+    <module>app</module>
+    <package>ron.fuelmanager.DataType</package>
+    <entry_point TYPE="method" FQNAME="ron.fuelmanager.DataType.Car java.lang.String getBrand()" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">unused declaration</problem_class>
+    <hints>
+      <hint value="comment" />
+      <hint value="delete" />
+    </hints>
+    <description>Method is never used.</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/ron/fuelmanager/DataType/Car.java</file>
+    <line>31</line>
+    <module>app</module>
+    <package>ron.fuelmanager.DataType</package>
+    <entry_point TYPE="method" FQNAME="ron.fuelmanager.DataType.Car int getModelID()" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">unused declaration</problem_class>
+    <hints>
+      <hint value="comment" />
+      <hint value="delete" />
+    </hints>
+    <description>Method is never used.</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/ron/fuelmanager/DataType/Car.java</file>
+    <line>39</line>
+    <module>app</module>
+    <package>ron.fuelmanager.DataType</package>
+    <entry_point TYPE="method" FQNAME="ron.fuelmanager.DataType.Car java.lang.String getModel()" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">unused declaration</problem_class>
+    <hints>
+      <hint value="comment" />
+      <hint value="delete" />
+    </hints>
+    <description>Method is never used.</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/ron/fuelmanager/DataType/Car.java</file>
+    <line>27</line>
+    <module>app</module>
+    <package>ron.fuelmanager.DataType</package>
+    <entry_point TYPE="method" FQNAME="ron.fuelmanager.DataType.Car void setBrand(java.lang.String brand)" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">unused declaration</problem_class>
+    <hints>
+      <hint value="comment" />
+      <hint value="delete" />
+    </hints>
+    <description>Method is never used.</description>
+  </problem>
+</problems>
+

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<problems>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/ron/fuelmanager/Activity/MainActivity.java</file>
+    <line>272</line>
+    <module>app</module>
+    <package>ron.fuelmanager.Activity</package>
+    <entry_point TYPE="method" FQNAME="ron.fuelmanager.Activity.MainActivity$9 void onDataChange(com.google.firebase.database.DataSnapshot dataSnapshot)" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Explicit type can be replaced with &lt;&gt;</problem_class>
+    <description>Explicit type argument String can be replaced with &lt;&gt;</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/ron/fuelmanager/Activity/MainActivity.java</file>
+    <line>280</line>
+    <module>app</module>
+    <package>ron.fuelmanager.Activity</package>
+    <entry_point TYPE="method" FQNAME="ron.fuelmanager.Activity.MainActivity$9 void onDataChange(com.google.firebase.database.DataSnapshot dataSnapshot)" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Explicit type can be replaced with &lt;&gt;</problem_class>
+    <description>Explicit type argument String can be replaced with &lt;&gt;</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/ron/fuelmanager/Activity/MainActivity.java</file>
+    <line>300</line>
+    <module>app</module>
+    <package>ron.fuelmanager.Activity</package>
+    <entry_point TYPE="method" FQNAME="ron.fuelmanager.Activity.MainActivity$9$2$1 void onDataChange(com.google.firebase.database.DataSnapshot dataSnapshot)" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Explicit type can be replaced with &lt;&gt;</problem_class>
+    <description>Explicit type argument String can be replaced with &lt;&gt;</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/ron/fuelmanager/DirectionsApi/DirectionsApi.java</file>
+    <line>24</line>
+    <module>app</module>
+    <package>ron.fuelmanager.DirectionsApi</package>
+    <entry_point TYPE="method" FQNAME="ron.fuelmanager.DirectionsApi.DirectionsApi java.util.List&lt;java.util.List&lt;java.util.HashMap&lt;java.lang.String,java.lang.String&gt;&gt;&gt; parse(org.json.JSONObject jObject)" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Explicit type can be replaced with &lt;&gt;</problem_class>
+    <description>Explicit type argument List&lt;HashMap&lt;String,String&gt;&gt; can be replaced with &lt;&gt;</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/ron/fuelmanager/DirectionsApi/DirectionsApi.java</file>
+    <line>50</line>
+    <module>app</module>
+    <package>ron.fuelmanager.DirectionsApi</package>
+    <entry_point TYPE="method" FQNAME="ron.fuelmanager.DirectionsApi.DirectionsApi java.util.List&lt;java.util.List&lt;java.util.HashMap&lt;java.lang.String,java.lang.String&gt;&gt;&gt; parse(org.json.JSONObject jObject)" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Explicit type can be replaced with &lt;&gt;</problem_class>
+    <description>Explicit type argument String, String can be replaced with &lt;&gt;</description>
+  </problem>
+</problems>
+

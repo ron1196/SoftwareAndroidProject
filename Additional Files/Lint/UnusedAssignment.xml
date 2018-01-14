@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<problems>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/ron/fuelmanager/Activity/RegisterActivity.java</file>
+    <line>152</line>
+    <module>app</module>
+    <package>ron.fuelmanager.Activity</package>
+    <entry_point TYPE="method" FQNAME="ron.fuelmanager.Activity.RegisterActivity void onActivityResult(int requestCode, int resultCode, android.content.Intent data)" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Unused assignment</problem_class>
+    <description>Variable &lt;code&gt;imageStream&lt;/code&gt; initializer &lt;code&gt;null&lt;/code&gt; is redundant</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/ron/fuelmanager/Activity/MapActivity.java</file>
+    <line>108</line>
+    <module>app</module>
+    <package>ron.fuelmanager.Activity</package>
+    <entry_point TYPE="method" FQNAME="ron.fuelmanager.Activity.MapActivity void drawRoute(java.util.List&lt;java.util.List&lt;java.util.HashMap&lt;java.lang.String,java.lang.String&gt;&gt;&gt; routes)" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Unused assignment</problem_class>
+    <description>Variable &lt;code&gt;points&lt;/code&gt; initializer &lt;code&gt;null&lt;/code&gt; is redundant</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/ron/fuelmanager/Activity/UserSettingActivity.java</file>
+    <line>219</line>
+    <module>app</module>
+    <package>ron.fuelmanager.Activity</package>
+    <entry_point TYPE="method" FQNAME="ron.fuelmanager.Activity.UserSettingActivity void onActivityResult(int requestCode, int resultCode, android.content.Intent data)" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Unused assignment</problem_class>
+    <description>Variable &lt;code&gt;imageStream&lt;/code&gt; initializer &lt;code&gt;null&lt;/code&gt; is redundant</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/ron/fuelmanager/DirectionsApi/DirectionsApi.java</file>
+    <line>25</line>
+    <module>app</module>
+    <package>ron.fuelmanager.DirectionsApi</package>
+    <entry_point TYPE="method" FQNAME="ron.fuelmanager.DirectionsApi.DirectionsApi java.util.List&lt;java.util.List&lt;java.util.HashMap&lt;java.lang.String,java.lang.String&gt;&gt;&gt; parse(org.json.JSONObject jObject)" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Unused assignment</problem_class>
+    <description>Variable &lt;code&gt;jRoutes&lt;/code&gt; initializer &lt;code&gt;null&lt;/code&gt; is redundant</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/ron/fuelmanager/DirectionsApi/DirectionsApi.java</file>
+    <line>26</line>
+    <module>app</module>
+    <package>ron.fuelmanager.DirectionsApi</package>
+    <entry_point TYPE="method" FQNAME="ron.fuelmanager.DirectionsApi.DirectionsApi java.util.List&lt;java.util.List&lt;java.util.HashMap&lt;java.lang.String,java.lang.String&gt;&gt;&gt; parse(org.json.JSONObject jObject)" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Unused assignment</problem_class>
+    <description>Variable &lt;code&gt;jLegs&lt;/code&gt; initializer &lt;code&gt;null&lt;/code&gt; is redundant</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/ron/fuelmanager/DirectionsApi/DirectionsApi.java</file>
+    <line>27</line>
+    <module>app</module>
+    <package>ron.fuelmanager.DirectionsApi</package>
+    <entry_point TYPE="method" FQNAME="ron.fuelmanager.DirectionsApi.DirectionsApi java.util.List&lt;java.util.List&lt;java.util.HashMap&lt;java.lang.String,java.lang.String&gt;&gt;&gt; parse(org.json.JSONObject jObject)" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Unused assignment</problem_class>
+    <description>Variable &lt;code&gt;jSteps&lt;/code&gt; initializer &lt;code&gt;null&lt;/code&gt; is redundant</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/ron/fuelmanager/DirectionsApi/DirectionsApi.java</file>
+    <line>44</line>
+    <module>app</module>
+    <package>ron.fuelmanager.DirectionsApi</package>
+    <entry_point TYPE="method" FQNAME="ron.fuelmanager.DirectionsApi.DirectionsApi java.util.List&lt;java.util.List&lt;java.util.HashMap&lt;java.lang.String,java.lang.String&gt;&gt;&gt; parse(org.json.JSONObject jObject)" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Unused assignment</problem_class>
+    <description>Variable &lt;code&gt;polyline&lt;/code&gt; initializer &lt;code&gt;&quot;&quot;&lt;/code&gt; is redundant</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/ron/fuelmanager/DirectionsApi/Json/DownloadUrlTask.java</file>
+    <line>42</line>
+    <module>app</module>
+    <package>ron.fuelmanager.DirectionsApi.Json</package>
+    <entry_point TYPE="method" FQNAME="ron.fuelmanager.DirectionsApi.Json.DownloadUrlTask java.lang.String downloadUrlAsString(java.lang.String strUrl)" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Unused assignment</problem_class>
+    <description>Variable &lt;code&gt;line&lt;/code&gt; initializer &lt;code&gt;&quot;&quot;&lt;/code&gt; is redundant</description>
+  </problem>
+</problems>
+

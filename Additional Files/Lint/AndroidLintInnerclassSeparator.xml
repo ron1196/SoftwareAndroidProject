@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<problems>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml</file>
+    <line>20</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Inner classes should use $ rather than .</problem_class>
+    <hints />
+    <description>&lt;html&gt;Use '$' instead of '.' for inner classes (or use only lowercase letters in package names); replace &quot;ron.fuelmanager.Activity.LoginActivity&quot; with &quot;ron$fuelmanager$Activity$LoginActivity&quot;&lt;/html&gt;</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml</file>
+    <line>27</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Inner classes should use $ rather than .</problem_class>
+    <hints />
+    <description>&lt;html&gt;Use '$' instead of '.' for inner classes (or use only lowercase letters in package names); replace &quot;ron.fuelmanager.Activity.RegisterActivity&quot; with &quot;ron$fuelmanager$Activity$RegisterActivity&quot;&lt;/html&gt;</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml</file>
+    <line>33</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Inner classes should use $ rather than .</problem_class>
+    <hints />
+    <description>&lt;html&gt;Use '$' instead of '.' for inner classes (or use only lowercase letters in package names); replace &quot;ron.fuelmanager.Activity.MapActivity&quot; with &quot;ron$fuelmanager$Activity$MapActivity&quot;&lt;/html&gt;</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml</file>
+    <line>34</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Inner classes should use $ rather than .</problem_class>
+    <hints />
+    <description>&lt;html&gt;Use '$' instead of '.' for inner classes (or use only lowercase letters in package names); replace &quot;ron.fuelmanager.Activity.ReadmeActivity&quot; with &quot;ron$fuelmanager$Activity$ReadmeActivity&quot;&lt;/html&gt;</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml</file>
+    <line>35</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Inner classes should use $ rather than .</problem_class>
+    <hints />
+    <description>&lt;html&gt;Use '$' instead of '.' for inner classes (or use only lowercase letters in package names); replace &quot;ron.fuelmanager.Activity.MainActivity&quot; with &quot;ron$fuelmanager$Activity$MainActivity&quot;&lt;/html&gt;</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml</file>
+    <line>36</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Inner classes should use $ rather than .</problem_class>
+    <hints />
+    <description>&lt;html&gt;Use '$' instead of '.' for inner classes (or use only lowercase letters in package names); replace &quot;ron.fuelmanager.Activity.UserSettingActivity&quot; with &quot;ron$fuelmanager$Activity$UserSettingActivity&quot;&lt;/html&gt;</description>
+  </problem>
+</problems>
+

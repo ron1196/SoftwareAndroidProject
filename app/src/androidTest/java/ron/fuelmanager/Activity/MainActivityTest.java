@@ -60,6 +60,7 @@ public class MainActivityTest {
 
     int bugetValueToChange = 49;
     String bugetValueToChangeString = "49.0";
+
     @Test
     public void changeBudget()
     {

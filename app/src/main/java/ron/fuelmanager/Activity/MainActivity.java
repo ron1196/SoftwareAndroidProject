@@ -208,7 +208,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.tv_budget:
                 openSetBudgetDialog();
                 break;
-
+            case R.id.tv_currency_sign:
+                openSetBudgetDialog();
+                break;
             case R.id.btn_ok:
                 updateUserBudget(budget - routePrice);
                 finish();
@@ -348,7 +350,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     }
 
     @Override
-    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+    public void onActivityResult(int requestCode, int resultCode, Intent data) {
         switch (requestCode) {
             case GET_RESULT_ROUTE:
                 if (resultCode == RESULT_OK) {
@@ -379,5 +381,4 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             public void onCancelled(DatabaseError databaseError) {}
         });
     }
-
 }

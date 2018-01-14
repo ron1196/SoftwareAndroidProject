@@ -30,7 +30,7 @@
             android:layout_height="0dp"
             android:layout_weight="1"
             android:background="#0050ef"
-            android:gravity="center_vertical" >
+            android:gravity="center_vertical">
 
             <TextView
                 android:id="@+id/tv_prompt_budget"
@@ -39,18 +39,20 @@
                 android:layout_marginHorizontal="@dimen/activity_horizontal_margin"
                 android:text="@string/prompt_remaining_budget"
                 android:textColor="#ffffff"
-                android:textSize="24sp"/>
+                android:textSize="24sp" />
 
             <TextView
                 android:id="@+id/tv_budget"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_toLeftOf="@id/tv_currency_sign"
+                android:layout_alignParentBottom="true"
+                android:layout_toLeftOf="@+id/tv_currency_sign"
+                android:layout_toStartOf="@+id/tv_currency_sign"
                 android:maxLength="6"
                 android:text="0"
                 android:textColor="#ffffff"
                 android:textSize="30sp"
-                android:textStyle="bold"/>
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/tv_currency_sign"
@@ -63,7 +65,7 @@
                 android:layout_marginRight="@dimen/activity_horizontal_margin"
                 android:text="@string/prompt_currency_symbol"
                 android:textColor="#ffffff"
-                android:textSize="16sp"/>
+                android:textSize="16sp" />
         </RelativeLayout>
 
         <RelativeLayout
@@ -86,7 +88,7 @@
                 android:inputType="none"
                 android:textColor="#ffffff"
                 android:textColorHint="#ffffff"
-                android:textSize="24sp"/>
+                android:textSize="24sp" />
         </RelativeLayout>
 
         <RelativeLayout
@@ -95,23 +97,24 @@
             android:layout_height="0dp"
             android:layout_marginHorizontal="@dimen/activity_horizontal_margin"
             android:layout_weight="5"
-            android:visibility="gone"
-            android:gravity="center" >
+            android:gravity="center"
+            android:visibility="gone">
 
             <TextView
                 android:id="@+id/prompt_route_dis"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Route Distance"
-                android:textSize="24sp"/>
+                android:textSize="24sp" />
 
             <TextView
                 android:id="@+id/text_route_dis"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_toRightOf="@+id/prompt_route_dis"
                 android:layout_below="@id/prompt_route_dis"
-                android:textSize="40sp"/>
+                android:layout_toEndOf="@+id/prompt_route_dis"
+                android:layout_toRightOf="@+id/prompt_route_dis"
+                android:textSize="40sp" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -121,7 +124,7 @@
                 android:layout_toRightOf="@+id/text_route_dis"
                 android:text="@string/prompt_km"
                 android:textColor="#ffffff"
-                android:textSize="16sp"/>
+                android:textSize="16sp" />
 
             <TextView
                 android:id="@+id/prompt_route_price"
@@ -129,7 +132,7 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@id/text_route_dis"
                 android:text="@string/prompt_route_price"
-                android:textSize="24sp"/>
+                android:textSize="24sp" />
 
             <TextView
                 android:id="@+id/text_route_price"
@@ -137,38 +140,38 @@
                 android:layout_height="wrap_content"
                 android:layout_alignRight="@+id/text_route_dis"
                 android:layout_below="@id/prompt_route_price"
-                android:textSize="40sp"/>
+                android:textSize="40sp" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignBottom="@id/text_route_price"
-                android:layout_toRightOf="@+id/text_route_price"
                 android:layout_toEndOf="@+id/text_route_price"
+                android:layout_toRightOf="@+id/text_route_price"
                 android:text="@string/prompt_currency_symbol"
                 android:textColor="#ffffff"
-                android:textSize="16sp"/>
+                android:textSize="16sp" />
 
             <Button
                 android:id="@+id/btn_cancel"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/text_route_price"
+                android:layout_centerInParent="true"
                 android:layout_marginTop="7dp"
                 android:layout_toLeftOf="@id/btn_ok"
                 android:layout_toStartOf="@id/btn_ok"
-                android:layout_centerInParent="true"
-                android:text="@string/prompt_btn_cancel"/>
+                android:text="@string/prompt_btn_cancel" />
 
             <Button
                 android:id="@+id/btn_ok"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
                 android:layout_below="@+id/text_route_price"
                 android:layout_marginTop="7dp"
-                android:layout_alignParentRight="true"
-                android:layout_alignParentEnd="true"
-                android:text="@string/prompt_btn_ok"/>
+                android:text="@string/prompt_btn_ok" />
 
         </RelativeLayout>
 

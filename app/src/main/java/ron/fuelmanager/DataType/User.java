@@ -1,6 +1,17 @@
 package ron.fuelmanager.DataType;
 
 public class User {
+    @Override
+    public String toString() {
+        return "User{" +
+                "firstName='" + firstName + '\'' +
+                ", lastName='" + lastName + '\'' +
+                ", city='" + city + '\'' +
+                ", address='" + address + '\'' +
+                ", budget=" + budget +
+                ", car=" + car +
+                '}';
+    }
 
     private String firstName, lastName, city, address;
     private double budget;

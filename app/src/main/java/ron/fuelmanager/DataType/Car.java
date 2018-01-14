@@ -4,7 +4,7 @@ package ron.fuelmanager.DataType;
  * Created by Ron on 13/01/2018.
  */
 
-public final class Car {
+public class Car {
 
     private String brand;
     private int modelID;
@@ -50,5 +50,15 @@ public final class Car {
 
     public void setMpg(double mpg) {
         this.mpg = mpg;
+    }
+
+    @Override
+    public String toString() {
+        return "Car{" +
+                "brand='" + brand + '\'' +
+                ", modelID=" + modelID +
+                ", model='" + model + '\'' +
+                ", mpg=" + mpg +
+                '}';
     }
 }

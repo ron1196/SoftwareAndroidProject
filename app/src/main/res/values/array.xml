@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- String related to user setting activity -->
+    <string-array name="select_image_items">
+        <item>"Take Photo"</item>
+        <item>"Choose from Library"</item>
+        <item>"Cancel"</item>
+    </string-array>
+
+</resources>

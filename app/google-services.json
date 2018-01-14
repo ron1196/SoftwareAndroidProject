@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "284039564805",
+    "firebase_url": "https://fuelmanager-188122.firebaseio.com",
+    "project_id": "fuelmanager-188122",
+    "storage_bucket": "fuelmanager-188122.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:284039564805:android:31d22ec3d9d0e520",
+        "android_client_info": {
+          "package_name": "ron.fuelmanager"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "284039564805-pog4ftfm6sgbk83ef4taq9dqaksus9mf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCumy5iIrSqEX7Zeyez6CV4rn7NP3BX_IE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

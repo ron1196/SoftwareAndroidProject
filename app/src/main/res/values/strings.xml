@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">FuelManager</string>
+
+    <!-- Strings related to login activity -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="action_register">Register</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+
+
+    <string name="action_save_user">Save</string>
+    <string name="title_activity_map">Map</string>
+
+    <!-- String related to about us activity -->
+    <string name="readme">האפלקציה מסייעת למשתמש לחשב את כמות הכסף שעולה נסיעה בודדת.
+האפליקציה מתנהלת כאשר המשתמש מזין כתובת יעד, האפלקציה מחשבת את כמות הקילמוטרים עד המקום של היעד וממירה את הקילומטרים לשקלים, היא מתחשבת בסוג המכונית, מחיר הדלק הנוכחי.
+בכל חודש הנהג יקציב לעצמו "מסגרת" חודשית ולנהג יהיה מד של הקצבה חודשית, כאשר בכל נסיעה האחוז של המד יעלה לפי כמות השקלים שביזבז.לדוגמא אם הנהג שלנו הקציב החודש 100 שקלים ונסע לבאר שבע שעלות הנסיעה היא 30 שקלים אז המד בסוף הנסיעה יתדעכן ל30 אחוז.
+מטרת האפילקציה היא לסייע למשתמש לנהל את התקציב דלק שלו כך שלא יחרוג מההקצבה החודשית שלו ולהתעדכן בבכמות הכסף שנשארה לו החודש וכמה עוד כסף נשאר לו החודש.</string>
+
+    <!-- String related to main activity -->
+    <string name="prompt_currency_symbol">₪</string>
+    <string name="prompt_budget">Budget</string>
+    <string name="prompt_remaining_budget">Remaining Budget</string>
+    <string name="hint_choose_direction">Where Do You Want To Go ?</string>
+    <string name="action_login">Login</string>
+    <string name="action_setting">Setting</string>
+
+    <!-- String related to my user activity -->
+    <string name="prompt_image_load_success">Image added successfully</string>
+    <string name="title_activity_login_activity2dfsdfsdf">Sign in</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="email">Email</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="city">City</string>
+    <string name="address">Address</string>
+    <string name="save">SAVE</string>
+    <string name="prompt_km">km</string>
+    <string name="prompt_route_price">Route Price</string>
+    <string name="prompt_btn_ok">Ok</string>
+    <string name="prompt_btn_cancel">Cancel</string>
+    <string name="action_sign_up">No account yet? Create one</string>
+    <string name="prompt_sign_up">SIGN UP</string>
+    <string name="prompt_logout">Logout</string>
+    <string name="prompt_user_settings">User Settings</string>
+    <string name="prompt_change_car">Change Car</string>
+    <string name="prompt_about_us">About Us</string>
+
+</resources>

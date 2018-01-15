@@ -14,21 +14,19 @@ public class User {
     }
 
     private String firstName, lastName, city, address;
-    private double budget;
+    private Double budget;
     private Car car;
 
-    public User(String firstName, String lastName, String city, String address, Car car) {
+    public User(String firstName, String lastName, String city, String address, double budget, Car car) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.city = city;
         this.address = address;
-        this.budget = 0;
+        this.budget = budget;
         this.car = car;
     }
 
-    public User() {
-        this.budget = 0;
-    }
+    public User() {}
 
     public String getFirstName() {
         return firstName;

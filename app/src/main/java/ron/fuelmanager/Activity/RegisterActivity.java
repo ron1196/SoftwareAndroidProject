@@ -87,7 +87,7 @@ public class RegisterActivity extends AppCompatActivity implements View.OnClickL
                 break;
 
             case R.id.btnRegister:
-                final User user = new User(etFirstName.getText().toString(), etLastName.getText().toString(), etCity.getText().toString(), etAddress.getText().toString(), null);
+                final User user = new User(etFirstName.getText().toString(), etLastName.getText().toString(), etCity.getText().toString(), etAddress.getText().toString(), 0, null);
                 mAuth.createUserWithEmailAndPassword(etEmail.getText().toString(), etPassword.getText().toString()).addOnCompleteListener(this, new OnCompleteListener<AuthResult>() {
                     public void onComplete(@NonNull Task<AuthResult> task) {
                         if (task.isSuccessful()) {

@@ -93,6 +93,7 @@ public class RegisterActivity extends AppCompatActivity implements View.OnClickL
                         if (task.isSuccessful()) {
                             FirebaseUser firebaseUser = task.getResult().getUser();
                             mDatabase.child("users").child(firebaseUser.getUid()).setValue(user);
+                            mDatabase.child("users").child(firebaseUser.getUid()).child("budget").setValue(user.getBudget());
                             FirebaseHelper.uploadImage(getApplicationContext(), firebaseUser.getUid(), image, null);
 
                             mFirebaseAnalytics.logEvent(FirebaseAnalytics.Event.SIGN_UP, null);

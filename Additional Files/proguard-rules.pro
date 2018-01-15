@@ -23,7 +23,15 @@
 # Preserve all native method names and the names of their classes.
 
 # using custom objects in your Firebase, save members name
--keepnames !ron.fuelmanager.DataType.** { *; }
+-keepnames class ron.fuelmanager.DataType.** { *; }
 
 # save firebase function names
 -keep class com.firebase.** { *; }
+
+# For Glide
+-keep public class * implements com.bumptech.glide.module.GlideModule
+-keep public class * extends com.bumptech.glide.module.AppGlideModule
+-keep public enum com.bumptech.glide.load.resource.bitmap.ImageHeaderParser$** {
+  **[] $VALUES;
+  public *;
+}

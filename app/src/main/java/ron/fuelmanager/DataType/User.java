@@ -26,7 +26,9 @@ public class User {
         this.car = car;
     }
 
-    public User() {}
+    public User() {
+        this.budget = 0;
+    }
 
     public String getFirstName() {
         return firstName;

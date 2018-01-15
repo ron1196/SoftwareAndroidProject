@@ -15,6 +15,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "284039564805-928sm671fq6t5hrimjg6sn793ndfge49.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ron.fuelmanager",
+            "certificate_hash": "2e526798dd3761e5938d3f6c0a58cb98d2e3bd4c"
+          }
+        },
+        {
           "client_id": "284039564805-pog4ftfm6sgbk83ef4taq9dqaksus9mf.apps.googleusercontent.com",
           "client_type": 3
         }
@@ -29,8 +37,13 @@
           "status": 1
         },
         "appinvite_service": {
-          "status": 1,
-          "other_platform_oauth_client": []
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "284039564805-pog4ftfm6sgbk83ef4taq9dqaksus9mf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         },
         "ads_service": {
           "status": 2

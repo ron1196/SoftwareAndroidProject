@@ -25,7 +25,10 @@ public class FirebaseHelper {
 
     public static void uploadData(final Context context, final String uid, final User user, final Bitmap image, final Runnable onCompleteListener) {
         DatabaseReference mDatabase = FirebaseDatabase.getInstance().getReference();
-        final Task<Void> task = mDatabase.child("users").child(uid).setValue(user);
+        mDatabase.child("users").child("address").setValue(user.getAddress());
+        mDatabase.child("users").child("firstName").setValue(user.getFirstName());
+        mDatabase.child("users").child("lastName").setValue(user.getLastName());
+        final Task<Void> task = mDatabase.child("users").child("city").setValue(user.getCity());
         task.addOnCompleteListener(new OnCompleteListener<Void>() {
             @Override
             public void onComplete(@NonNull Task<Void> task) {

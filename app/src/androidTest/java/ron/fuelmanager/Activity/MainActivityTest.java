@@ -2,8 +2,11 @@ package ron.fuelmanager.Activity;
 
 import android.content.Intent;
 import android.os.SystemClock;
+import android.support.annotation.NonNull;
+import android.support.test.espresso.NoMatchingViewException;
 import android.support.test.espresso.UiController;
 import android.support.test.espresso.ViewAction;
+import android.support.test.espresso.ViewAssertion;
 import android.support.test.espresso.ViewInteraction;
 import android.support.test.espresso.action.GeneralClickAction;
 import android.support.test.espresso.action.GeneralLocation;
@@ -30,6 +33,11 @@ import android.support.test.rule.ActivityTestRule;
 import android.view.View;
 import android.widget.NumberPicker;
 
+import com.google.android.gms.tasks.OnCompleteListener;
+import com.google.android.gms.tasks.Task;
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
+
 import org.junit.runner.RunWith;
 
 
@@ -37,6 +45,7 @@ import ron.fuelmanager.R;
 
 import static android.support.test.InstrumentationRegistry.getInstrumentation;
 import static android.support.test.espresso.Espresso.*;
+import static android.support.test.espresso.action.ViewActions.addGlobalAssertion;
 import static android.support.test.espresso.action.ViewActions.click;
 import static android.support.test.espresso.assertion.ViewAssertions.matches;
 import static android.support.test.espresso.matcher.ViewMatchers.withClassName;

@@ -23,7 +23,8 @@
 # Preserve all native method names and the names of their classes.
 
 # using custom objects in your Firebase, save members name
--keepnames class ron.fuelmanager.DataType.** { *; }
+-keep public class ron.fuelmanager.DataType.Car
+-keep public class ron.fuelmanager.DataType.User
 
 # save firebase function names
 -keep class com.firebase.** { *; }

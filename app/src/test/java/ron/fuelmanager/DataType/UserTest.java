@@ -21,7 +21,7 @@ public class UserTest {
     @Test
     public void toStringTest() throws Exception {
         when(mMockCar.toString()).thenReturn("MOCKED CAR");
-        User user = new User("test","me","testvile","fake",mMockCar);
+        User user = new User("test","me","testvile","fake", 0,mMockCar);
         assertEquals(user.toString() , "User{firstName='test', lastName='me', city='testvile', address='fake', budget=0.0, car=MOCKED CAR}");
     }
 

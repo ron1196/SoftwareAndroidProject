@@ -21,10 +21,15 @@ def add_user():
             email=email,
             email_verified=True,
             password=password
-            #photo_url='https://example.com/photo.png'
         )
+
+        city = input("Enter city: ")
+        address = input("Enter address: ")
+        firstName = input("Enter firstName: ")
+        lastName = input("Enter lastName: ")
+
         users = db.reference('users')
-        users.child(user.uid).set({'address': '', 'budget': 0, 'city': '', 'firstName': '', 'lastName': ''})
+        users.child(user.uid).set({'address': address, 'budget': 0, 'city': city, 'firstName': firstName, 'lastName': lastName})
         print("User: ", user.uid, " successfully created")
     except ValueError:
         print("Invalid arguments")
